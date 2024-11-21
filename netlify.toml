@@ -1,5 +1,5 @@
 [build]
-command = "./build.sh"
+command = "./build.sh && deno run --allow-net --allow-read server.ts"
 publish = "public"
 
 [build.environment]
